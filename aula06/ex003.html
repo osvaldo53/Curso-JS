@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(17, 110, 37);
+            color: white; /*COMENTARIO EM CSS */
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgb(226, 226, 38);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1> <!--COMENTArIO EM HTML-->
+    <p>Já me livrei da maldição...</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um numero inteiro: '))
+        var n2 = Number.parseFloat(window.prompt('Digite um numero real: '))
+        var n3 = Number(window.prompt('Digite um numero : ')) //o javascript identifica se é int ou real
+        var soma = n1 + n2 + n3 //
+        window.alert(`A soma entre os numeros é ${soma}`) //template string
+        // + para (number+number) faz adição
+        // + para (string + string) faz concatenação
+        //exemplo para converter a variavel soma p/ string: soma.toString() ou String(soma)
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+Tipos de Operadores:
+ARITMETICOS
+ATRIBUIÇÂO
+RELACIONAIS
+LOGICOS
+TERNARIO
+
+
+Operadores aritméticos:
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5
+5 % 2 = 1 (resto da divisão)
+5 ** 2 = 25 (potencia)
+
+Ordem de precedencia:
+()
+**
+* / %
++ -
+
+Atribuição Simples:
+var a = 5 + 3           a = 8
+var b = a % 5           b = 3
+var c = 5 * b ** 2      c = 45
+var d = 10 - a / 2      d = 6
+var e = 6 * 2 / d       e = 2   
+var f = b % e + 4 / e   f = 3
+
+Auto Atribuição:
+n = 6
+n = n + 4     n = 10
+
+Também pode usar dessa forma quando a var recebe
+ela + algo:
+
+num = 6 (no lugar do mais se pode usar tds outros operadores)
+num += 4      num = 10
+num /= 2      num = 5
+num **= 2     num = 25
+
+
+Operador de incremento:
+n = 10
+n++         n = 11
+n--         n = 10
+++n         n = 11
+--no        n = 10
+
+
+Operadores Relacionais:
+5 > 2       -> true
+7 < 4       -> false
+8 >= 8      -> true
+9 <= 7      -> false
+5 == 5      -> true  (igual)
+4 != 4      -> false (diferente)
+
+5 == '5'  (o operador igual nao diferencia os tipos de variavel)
+true
+5 ==='5'  (=== é o operador identico, aí sim diferencia numero de string)
+false
+5 === 5
+true
+5 !== '5' (!== é o desigual restrito, sao tipos diferente!)
+true
+
+
+Operadores Lógicos:
+!      negação
+&&     conjunção(e)
+||     disjunção(ou)
+
+true && true  -> true
+true && false -> false
+false && true -> false
+false && false-> false
+
+true || true  -> true
+true || false -> true
+false || true -> true
+false || false-> false
+
+Precedencia:
+1º operadores aritmeticos...
+2º relacionais > < >= <= == (na ordem que aparecerem)
+3º lógicos: primeiro !, depois &&, por ultimo ||
+
+
+Operador Ternário:
+teste ? true : false
+média >= 7 ? "aprovado" : "reprovado"
