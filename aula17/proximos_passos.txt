@@ -1,0 +1,9 @@
+Dicas do que estudar em javascript:
+
+- functions
+- objetos 
+- modularização
+- RegEx
+- JSON
+- AJAX
+- NodeJS
